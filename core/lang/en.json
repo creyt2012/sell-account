@@ -1,7 +1,0 @@
-{
-    "The :attribute must contain at least one letter.": "Thuộc tính phải chứa ít nhất một chữ cái.",
-    "The :attribute must contain at least one number.": "Thuộc tính: phải chứa ít nhất một số.",
-    "The :attribute must contain at least one symbol.": "Thuộc tính :phải chứa ít nhất một ký hiệu.",
-    "The :attribute must contain at least one uppercase and one lowercase letter.": "Thuộc tính phải chứa ít nhất một chữ hoa và một chữ thường.",
-    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "Thuộc tính đã cho đã xuất hiện trong một vụ rò rỉ dữ liệu. Vui lòng chọn một : thuộc tính khác."
-}
