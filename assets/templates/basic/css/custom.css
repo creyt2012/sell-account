@@ -1,0 +1,78 @@
+/* Thay đổi màu sắc và gradient cho nền login-main */
+.login-main {
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #0a0a0a; /* Màu nền tối */
+    background-image: linear-gradient(to right, #1E157D, #3D2BFB); /* Gradient từ màu sáng đến màu tối */
+}
+
+/* Thay đổi màu sắc cho login-wrapper */
+.login-wrapper {
+    background-color: #262c49; /* Màu nền tối cho login-wrapper */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Thay đổi màu sắc cho login-wrapper__top */
+.login-wrapper__top {
+    padding: 60px 30px 40px 30px;
+    text-align: center;
+    background-color: #1E157D; /* Màu nền sáng cho login-wrapper__top */
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Thay đổi màu sắc cho form-control */
+.login-form .form-control {
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #262c49; /* Màu nền tối cho input */
+}
+
+/* Thay đổi màu sắc cho form-control khi được focus */
+.login-form .form-control:focus {
+    background-color: #1E157D; /* Màu nền sáng khi input được focus */
+    border-color: #3D2BFB;
+}
+
+/* Thay đổi màu sắc cho cmn-btn */
+.cmn-btn {
+    background-color: #3D2BFB; /* Màu cho nút đăng nhập */
+    color: #fff;
+    height: 50px;
+    border: 1px solid #3D2BFB; /* Màu viền cho nút đăng nhập */
+}
+
+.cmn-btn:hover {
+    color: #fff;
+    background-color: #262c49; /* Màu khi hover đến nút đăng nhập */
+    border-color: #262c49; /* Màu viền khi hover đến nút đăng nhập */
+}
+
+/* Thêm gradient cho error-area */
+.error-area {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #1E157D, #3D2BFB); /* Gradient cho nền error-area */
+}
+
+/* Thay đổi màu sắc cho error-wrapper trong dark version */
+.dark-version .error-area .error-wrapper {
+    color: #fff; /* Màu chữ trắng trong dark version */
+}
